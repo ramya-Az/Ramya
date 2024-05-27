@@ -19,6 +19,6 @@ jobs:
       - name: docker build 
         run: cd testenv && docker build . -t fast_api:satyam
       - name: test
-        run: echo "hello"
+        run: echo "hello1"
       - name: docker tag & push  
         run: docker tag fast_api:satyam shubhambawa98/testlkm:satyam && docker push shubhambawa98/testlkm:satyam 
