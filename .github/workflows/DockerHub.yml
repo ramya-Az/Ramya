@@ -11,7 +11,7 @@ jobs:
     environment: ENV
     steps:
       - name: gitclone 
-        run: git clone https://github.com/ramya-Az/Ramya.git
+        run: git clone https://github.com/Shubham-Bawa/testenv.git
       - name: docker installation 
         run: curl -fsSL https://get.docker.com | sh 
       - name: docker login 
